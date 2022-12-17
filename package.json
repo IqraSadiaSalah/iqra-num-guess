@@ -1,0 +1,36 @@
+{
+  "name": "iqra-num-guess",
+  "version": "1.8.0",
+  "description": "Number guessing game",
+  "type": "module",
+  "main": "project2.mjs",
+  "bin": {
+    "iqra-num-guess": "./project2.mjs"
+  },
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint project2.mjs",
+    "format": "prettier --write project2.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.1",
+    "@types/figlet": "^1.5.5",
+    "@types/inquirer": "^9.0.3",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@types/gradient-string": "^1.1.2",
+    "chalk": "^5.1.2",
+    "chalk-animation": "^2.0.3",
+    "eslint": "^8.29.0",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.1.4",
+    "nanospinner": "^1.1.0",
+    "readline-sync": "^1.4.10"
+  }
+}
